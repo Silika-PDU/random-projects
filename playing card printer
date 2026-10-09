@@ -1,0 +1,5 @@
+suites = ['clubs', 'diamonds', 'hearts', 'spades']
+ranks = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', 'King']
+for suite in suites:
+    for rank in ranks:
+        print(suite, " of ", rank)
